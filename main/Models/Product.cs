@@ -22,16 +22,16 @@ namespace main.Models
         [Required]
         public string Description { get; set; }
         [Required]
-        public string CategoryId { get; set; }
+        public string CategoryId { get; set; }  //應該使用Enum型別
         [Required]
         public string Price { get; set; }
         [Required]
         public string PublishDate { get; set; }
         [Required]
-        public string Status { get; set; }
+        public string Status { get; set; }  //應該使用Enum型別
         [Required]
         public string DefaultImageId { get; set; }
         [Required]
-        public string Quantity { get; set; }
+        public string Quantity { get; set; }    //應該使用Enum型別
     }
 }
